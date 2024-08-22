@@ -27,6 +27,12 @@ function CustomNavbar() {
               <Nav.Link as={Link} to="/contact">
                 Contact
               </Nav.Link>
+              <Nav.Link as={Link} to="/todo">
+                TodoList
+              </Nav.Link>
+              <Nav.Link as={Link} to="/login">
+                Login
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
